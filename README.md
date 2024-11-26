@@ -33,9 +33,6 @@ Projenin çalışabilmesi için aşağıdaki yazılımların kurulu olduğundan 
    ```bash
     php artisan app:send-messages-to-queue
    
-3. **Kuyruğu Çalıştırmak İçin:**
+4**Kuyruğu Çalıştırmak İçin:**
    ```bash
     php artisan queue:work
-
-# insider-case
-# insider-case
