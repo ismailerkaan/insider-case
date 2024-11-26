@@ -19,8 +19,8 @@ Projenin çalışabilmesi için aşağıdaki yazılımların kurulu olduğundan 
 
 1. **Proje Dosyalarını Kopyalayın:**
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/ismailerkaan/insider-case.git
+   cd challange
    composer install
    cp .env.example .env
    php artisan key:generate
