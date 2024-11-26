@@ -1,0 +1,63 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Your super  ApplicationAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/v1/messages/sent": {
+            "get": {
+                "tags": [
+                    "Sent Messages"
+                ],
+                "summary": "Lists Sent Messages",
+                "operationId": "c033171ce61afd248fb12a9594486513",
+                "responses": {
+                    "200": {
+                        "description": "Lists Sent Messages",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string",
+                                                        "example": "68e93bff-ab3b-11ef-95e7-0242ac1c0103"
+                                                    },
+                                                    "messageId": {
+                                                        "type": "string",
+                                                        "example": "6c4a4334-9fd6-3791-a480-fcf7b8a38e36"
+                                                    },
+                                                    "status": {
+                                                        "type": "string",
+                                                        "example": "sent"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "X-Api-Key": []
+                    }
+                ]
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Sent Messages",
+            "description": "Sent Messages"
+        }
+    ]
+}
