@@ -9,12 +9,6 @@ use App\Http\Resources\MessageResource;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Support\Facades\Cache;
 
-/**
- * @OA\Info(
- *    title="Your super  ApplicationAPI",
- *    version="1.0.0",
- * )
- */
 class MessageController extends Controller
 {
 
