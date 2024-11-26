@@ -33,6 +33,10 @@ Projenin çalışabilmesi için aşağıdaki yazılımların kurulu olduğundan 
    ```bash
     php artisan app:send-messages-to-queue
    
-4**Kuyruğu Çalıştırmak İçin:**
+4. **Kuyruğu Çalıştırmak İçin:**
    ```bash
     php artisan queue:work
+
+5. **Api Dökümantasyonu İçin Url:**
+   ```bash
+    /api/documentation
